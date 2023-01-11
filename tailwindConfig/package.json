@@ -1,0 +1,17 @@
+{
+  "name": "flex-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "tailwindcss -i ./tailwindcss-input.css -o ../assets/css/tailwindcss-style.css",
+    "tw-watch": "tailwindcss -i ./tailwindcss-input.css -o ../assets/css/tailwindcss-style.css --watch"
+  },
+  "author": "Peyman Naderi",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4"
+  }
+}
