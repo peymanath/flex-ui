@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <title>Signin One</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../assets/css/tailwindcss-style.css">
+
+    <!--
+        * Author Name: Peyman Naderi 
+        * Author Link: https://github.com/peymanath
+    -->
+
+</head>
+
+<body class="bg-white h-[100vh]">
+
+    <!-- Signin One  -->
+
+    <!-- Component Position -->
+    <main class="h-full">
+        <div class="absolute bg-hero-section inset-0 -z-50" style="-webkit-mask-image: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0.1) 50%);"></div>
+        <div class="flex flex-col justify-center items-center gap-y-8 max-w-[300px] sm:max-w-[358px] mx-auto h-full">
+            <div class="flex flex-col items-center gap-y-3">
+                <div class="bg-primary p-2 rounded-md">
+                    <img src="../../assets/images/Logo-Icon.svg" alt="">
+                </div>
+                <div class="text-secondary font-bold text-xl">
+                    <p>وارد حساب کاربری خود شوید</p>
+                </div>
+                <div class="text-gray-500 text-sm">
+                    <p>نسخه دمو خود را شروع کنید</p>
+                </div>
+            </div>
+            <form action="" method="GET" class="flex flex-col items-center gap-y-6 w-full">
+
+                <div class="flex flex-col gap-y-2 w-full">
+                    <div class="flex flex-col gap-y-2 w-full">
+                        <label for="email" class="text-gray-800 font-bold pr-1">ایمیل</label>
+                        <input id="email" name="email" type="email" class="border border-gray-200 rounded-md p-2 text-sm">
+                    </div>
+                    <div class="flex flex-col gap-y-2 w-full">
+                        <label for="password" class="text-gray-800 font-bold pr-1">رمزعبور</label>
+                        <input id="password" name="password" type="password" class="border border-gray-200 rounded-md p-2 text-sm">
+                    </div>
+                </div>
+
+                <div class="flex gap-x-2 items-center justify-between w-full px-1">
+                    <div class="flex items-center gap-x-2">
+                        <input type="checkbox" name="remember_me" id="remember" class="appearance-none border border-gray-200 p-2 rounded duration-300 checked:bg-primary checked:border-primary checked:bg-checked checked:bg-no-repeat checked:bg-center">
+                        <label for="remember" class="text-gray-800 text-sm">به خاطر سپردن</label>
+                    </div>
+                    <div>
+                        <a href="#" class="text-primary text-sm duration-300 hover:opacity-70">رمزعبور را فراموش کرده اید؟</a>
+                    </div>
+                </div>
+
+                <div class="flex w-full">
+                    <button type="submit" class="bg-primary text-white w-full h-full py-2 px-5 border border-primary rounded-md duration-300 hover:bg-white hover:text-primary">ورود به سایت</button>
+                </div>
+
+                <div class="flex justify-center items-center w-full">
+                    <p class="text-sm ">
+                        <span>حساب کاربری ندارید؟</span>
+                        <a href="#" class="text-primary duration-300 hover:opacity-70">ثبت نام</a>
+                    </p>
+                </div>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
