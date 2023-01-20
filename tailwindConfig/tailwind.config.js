@@ -14,7 +14,8 @@ module.exports = {
         padding: '1rem'
       },
       backgroundImage: {
-        'hero-section': 'url("../images/back-square.svg")'
+        'hero-section': 'url("../images/back-square.svg")',
+        'checked': 'url("../images/check-input.svg")'
       },
       colors: {
         // main coloe
