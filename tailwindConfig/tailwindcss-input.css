@@ -18,3 +18,12 @@
     font-display: swap;
     src: local('IRANSans'), url(../fonts/IRANSansWeb_Bold.woff2) format('woff')
 }
+
+input:focus,
+select:focus,
+textarea:focus,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible{
+    outline: none;
+}

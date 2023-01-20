@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["../components/**/*.{html,js}"],
+  content: ["../components/**/*.html"],
   theme: {
     extend: {
       fontFamily: {
@@ -12,6 +12,10 @@ module.exports = {
       container: {
         center: true,
         padding: '1rem'
+      },
+      backgroundImage: {
+        'hero-section': 'url("../images/back-square.svg")',
+        'checked': 'url("../images/check-input.svg")'
       },
       colors: {
         // main coloe
