@@ -611,6 +611,10 @@ video {
   margin-right: 1.25rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -693,6 +697,10 @@ video {
   max-width: 300px;
 }
 
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
 .basis-full {
   flex-basis: 100%;
 }
@@ -710,6 +718,10 @@ video {
 
 .flex-col {
   flex-direction: column;
+}
+
+.flex-col-reverse {
+  flex-direction: column-reverse;
 }
 
 .flex-wrap {
@@ -762,6 +774,10 @@ video {
   row-gap: 0.75rem;
 }
 
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
 .gap-y-2 {
   row-gap: 0.5rem;
 }
@@ -769,10 +785,6 @@ video {
 .gap-x-2 {
   -moz-column-gap: 0.5rem;
        column-gap: 0.5rem;
-}
-
-.gap-y-6 {
-  row-gap: 1.5rem;
 }
 
 .overflow-hidden {
@@ -797,6 +809,10 @@ video {
 
 .rounded {
   border-radius: 0.25rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .border {
@@ -859,18 +875,6 @@ video {
 
 .bg-hero-section {
   background-image: url("../images/back-square.svg");
-}
-
-.bg-checked {
-  background-image: url("../images/check-input.svg");
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-2 {
@@ -944,6 +948,16 @@ video {
   padding-right: 1.25rem;
 }
 
+.py-36 {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pr-4 {
   padding-right: 1rem;
 }
@@ -956,14 +970,18 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .text-xl {
@@ -993,6 +1011,10 @@ video {
 
 .leading-\[2\.3rem\] {
   line-height: 2.3rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .text-gray-400 {
@@ -1204,14 +1226,6 @@ textarea:focus-visible{
   background-repeat: no-repeat;
 }
 
-.checked\:p-1:checked {
-  padding: 0.25rem;
-}
-
-.checked\:p-3:checked {
-  padding: 0.75rem;
-}
-
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -1234,10 +1248,6 @@ textarea:focus-visible{
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(34 197 94 / var(--tw-text-opacity));
-}
-
-.hover\:opacity-80:hover {
-  opacity: 0.8;
 }
 
 .hover\:opacity-70:hover {
@@ -1280,6 +1290,20 @@ textarea:focus-visible{
   .md\:w-\[10\%\] {
     width: 10%;
   }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .md\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .md\:leading-8 {
+    line-height: 2rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1295,12 +1319,21 @@ textarea:focus-visible{
     margin-bottom: 2.5rem;
   }
 
+  .lg\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .lg\:text-right {
@@ -1322,8 +1355,17 @@ textarea:focus-visible{
     line-height: 1.75rem;
   }
 
+  .lg\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .lg\:leading-\[4rem\] {
     line-height: 4rem;
+  }
+
+  .lg\:leading-8 {
+    line-height: 2rem;
   }
 
   .lg\:before\:inline-block::before {
@@ -1338,6 +1380,14 @@ textarea:focus-visible{
 }
 
 @media (min-width: 1280px) {
+  .xl\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
+  .xl\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
   .xl\:gap-20 {
     gap: 5rem;
   }
@@ -1345,6 +1395,11 @@ textarea:focus-visible{
   .xl\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
@@ -1366,6 +1421,16 @@ textarea:focus-visible{
   .\32xl\:text-5xl {
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .\32xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .\32xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .\32xl\:leading-\[5rem\] {
