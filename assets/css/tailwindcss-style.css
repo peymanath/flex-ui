@@ -563,12 +563,35 @@ video {
   position: relative;
 }
 
+.inset-0 {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
 .top-1\/2 {
   top: 50%;
 }
 
 .right-2 {
   right: 0.5rem;
+}
+
+.z-\[\] {
+  z-index: ;
+}
+
+.z-\[-999\] {
+  z-index: -999;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
+.-z-50 {
+  z-index: -50;
 }
 
 .order-2 {
@@ -629,6 +652,22 @@ video {
   height: 1.25rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[100\] {
+  height: 100;
+}
+
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -662,12 +701,24 @@ video {
   width: 30%;
 }
 
+.w-\[250px\] {
+  width: 250px;
+}
+
 .max-w-full {
   max-width: 100%;
 }
 
 .max-w-\[250px\] {
   max-width: 250px;
+}
+
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .basis-full {
@@ -791,6 +842,10 @@ video {
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(85 105 135 / var(--tw-bg-opacity));
+}
+
+.bg-hero-section {
+  background-image: url("../images/back-square.svg");
 }
 
 .p-2 {
@@ -1085,6 +1140,12 @@ video {
 .focus-visible\:outline-none:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+@media (min-width: 640px) {
+  .sm\:max-w-\[300px\] {
+    max-width: 300px;
+  }
 }
 
 @media (min-width: 768px) {

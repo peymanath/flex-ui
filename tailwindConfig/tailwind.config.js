@@ -13,6 +13,9 @@ module.exports = {
         center: true,
         padding: '1rem'
       },
+      backgroundImage: {
+        'hero-section': 'url("../images/back-square.svg")'
+      },
       colors: {
         // main coloe
         primary: '#22C55E',
